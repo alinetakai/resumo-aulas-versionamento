@@ -14,25 +14,25 @@
 
 **🚨 Passos para criar uma pasta, iniciar um repositório Git, adicionar um arquivo, salvar as alterações e enviar para o repositório remoto**
 
-```mkdir nome-da-pasta```
+```mkdir nome-da-pasta``` (cria uma pasta)
 
-```cd nome-da-pasta```
+```cd nome-da-pasta``` (muda para a pasta)
 
-```git init```
+```git init``` (inicia um repositório git vazio)
 
-```touch nome-do-arquivo.extensão```
+```touch nome-do-arquivo.extensão``` (cria um arquivo)
 
-```git status```
+```git status``` (verifica o status)
 
-```git add .```
+```git add .``` (adiciona as alterações para a área de preparação)
 
-```git status```
+```git status``` (verifica o status)
 
-```git commit -m "first commit"```
+```git commit -m "first commit"``` ("comita"/salva as alterações feitas)
 
-```git branch -M main```
+```git branch -M main``` (nomeia a branch atual para main)
 
-```git remote add origin https://github.com/alinetakai/teste.git```
+```git remote add origin https://github.com/[seu usuário]/[nome do seu repositório].git``` (conecta o repositório local a um repositório remoto hospedado no GitHub)
 
-```git push -u origin main```
+```git push -u origin main``` (faz o "push"/envia as alterações locais para o repositório remoto no GitHub, na branch main)
 
