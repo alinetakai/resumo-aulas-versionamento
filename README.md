@@ -10,14 +10,24 @@
 
 **🚨 Passos para criar uma pasta, iniciar um repositório Git, adicionar um arquivo, salvar as alterações e enviar para o repositório remoto**
 ```mkdir nome-da-pasta```
+
 ```cd nome-da-pasta```
+
 ```git init```
+
 ```touch nome-do-arquivo.extensão```
+
 ```git status```
+
 ```git add .```
+
 ```git status```
+
 ```git commit -m "first commit"```
+
 ```git branch -M main```
+
 ```git remote add origin https://github.com/alinetakai/teste.git```
+
 ```git push -u origin main```
 
